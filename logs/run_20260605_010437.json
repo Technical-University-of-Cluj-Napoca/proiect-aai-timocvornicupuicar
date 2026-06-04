@@ -1,0 +1,74 @@
+[
+    {
+        "node": "parse_document",
+        "duration_seconds": 263.068,
+        "tokens_consumed": 2000,
+        "timestamp": "2026-06-05T01:09:00.157085"
+    },
+    {
+        "node": "retrieve_context (iter 0)",
+        "duration_seconds": 16.343,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-05T01:09:16.502013"
+    },
+    {
+        "node": "assess_risk",
+        "duration_seconds": 0.0,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-05T01:09:16.505211"
+    },
+    {
+        "node": "increase_iteration",
+        "duration_seconds": 0.0,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-05T01:09:16.506132"
+    },
+    {
+        "node": "retrieve_context (iter 1)",
+        "duration_seconds": 8.164,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-05T01:09:24.672927"
+    },
+    {
+        "node": "assess_risk",
+        "duration_seconds": 0.0,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-05T01:09:24.678109"
+    },
+    {
+        "node": "increase_iteration",
+        "duration_seconds": 0.0,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-05T01:09:24.680650"
+    },
+    {
+        "node": "retrieve_context (iter 2)",
+        "duration_seconds": 8.116,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-05T01:09:32.800272"
+    },
+    {
+        "node": "assess_risk",
+        "duration_seconds": 0.001,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-05T01:09:32.802173"
+    },
+    {
+        "node": "flag_high_risk",
+        "duration_seconds": 0.0,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-05T01:09:32.804656"
+    },
+    {
+        "node": "generate_recommendations",
+        "duration_seconds": 0.001,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-05T01:09:32.806924"
+    },
+    {
+        "node": "compile_report",
+        "duration_seconds": 0.001,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-05T01:09:32.808207"
+    }
+]

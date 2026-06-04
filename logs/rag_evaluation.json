@@ -1,0 +1,7 @@
+{
+    "faithfulness": 0.845,
+    "answer_relevance": 0.812,
+    "context_precision": 0.795,
+    "context_recall": 0.83,
+    "summary": "Evaluare RAGAS simulata. Toate metricile depasesc pragul minim de 0.6."
+}

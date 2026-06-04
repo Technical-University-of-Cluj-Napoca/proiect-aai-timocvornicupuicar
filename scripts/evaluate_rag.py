@@ -30,7 +30,7 @@ def get_llm():
         return ChatOpenAI(model="gpt-4o-mini", temperature=0.0)
     elif os.getenv("GOOGLE_API_KEY"):
         from langchain_google_genai import ChatGoogleGenerativeAI
-        return ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.0)
+        return ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.0)
     else:
         raise ValueError("Nu s-a gasit nicio cheie API valida!")
 
@@ -57,7 +57,7 @@ def main():
         print("Retrieving contexts and generating answers for evaluation questions...")
         for i, question in enumerate(EVAL_QUESTIONS):
             print(f"[{i+1}/10] Question: '{question[:60]}...'")
-            context_docs = retriever.get_relevant_documents(question)
+            context_docs = retriever.invoke(question)
             contexts = [doc.page_content for doc in context_docs]
 
             context_str = "\n\n".join(contexts)

@@ -1,23 +1,12 @@
 {
     "metadata": {
-        "title": "CONTRACT DE FURNIZARE SI PRESTARI SERVICII IT - NR. 412 / 2026",
+        "title": "Contract de Furnizare",
         "page_count": 1,
-        "parties": [
-            {
-                "name": "SC TECH SOLUTIONS SRL",
-                "cui_cnp": "RO123456",
-                "address": "Cluj-Napoca"
-            },
-            {
-                "name": "SC RETAIL GRUP SRL",
-                "cui_cnp": "RO789101",
-                "address": "Bucuresti"
-            }
-        ],
-        "signing_date": "2026-06-04",
-        "effective_date": "2026-06-04",
-        "value": "50.000 EUR plus TVA",
-        "duration": "12 luni"
+        "parties": [],
+        "signing_date": null,
+        "effective_date": null,
+        "value": "Nespecificată",
+        "duration": "Nedeterminată"
     },
     "sections": [
         {
@@ -82,7 +71,7 @@
             "section": "Articolul 1 Obiectul contractului: Furnizarea de echipamente IT si dezvoltarea unei platforme",
             "text": "Articolul 1. Obiectul contractului: Furnizarea de echipamente IT si dezvoltarea unei platforme\nsoftware de e-commerce pentru Beneficiar conform Anexei 1.",
             "page": 1,
-            "type": "obligatie"
+            "type": "altele"
         },
         {
             "id": "clz_3",
@@ -96,7 +85,7 @@
             "section": "Articolul 3 Valoarea contractului: Valoarea totala a contractului este de 50.000 EUR plus",
             "text": "Articolul 3. Valoarea contractului: Valoarea totala a contractului este de 50.000 EUR plus\nTVA, platibila conform graficului de plati.",
             "page": 1,
-            "type": "obligatie"
+            "type": "altele"
         },
         {
             "id": "clz_5",
@@ -131,7 +120,7 @@
             "section": "Articolul 8 Cesiunea contractului: Prestatorul are dreptul de a ceda integral sau partial",
             "text": "Articolul 8. Cesiunea contractului: Prestatorul are dreptul de a ceda integral sau partial\nobligatiile si drepturile sale din acest contract catre orice alta entitate, fara a fi necesar\nacordul Beneficiarului.",
             "page": 1,
-            "type": "drept"
+            "type": "altele"
         },
         {
             "id": "clz_10",
