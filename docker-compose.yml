@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  legal-analyzer:
+    build: .
+    container_name: legal_contract_analyzer
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./vectorstore:/app/vectorstore
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./corpus:/app/corpus
+    restart: unless-stopped

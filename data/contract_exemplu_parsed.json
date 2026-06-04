@@ -1,0 +1,158 @@
+{
+    "metadata": {
+        "title": "CONTRACT DE FURNIZARE SI PRESTARI SERVICII IT - NR. 412 / 2026",
+        "page_count": 1,
+        "parties": [
+            {
+                "name": "SC TECH SOLUTIONS SRL",
+                "cui_cnp": "RO123456",
+                "address": "Cluj-Napoca"
+            },
+            {
+                "name": "SC RETAIL GRUP SRL",
+                "cui_cnp": "RO789101",
+                "address": "Bucuresti"
+            }
+        ],
+        "signing_date": "2026-06-04",
+        "effective_date": "2026-06-04",
+        "value": "50.000 EUR plus TVA",
+        "duration": "12 luni"
+    },
+    "sections": [
+        {
+            "title": "Preambul",
+            "start_page": 1
+        },
+        {
+            "title": "Articolul 1 Obiectul contractului: Furnizarea de echipamente IT si dezvoltarea unei platforme",
+            "start_page": 1
+        },
+        {
+            "title": "Articolul 2 Durata contractului: Contractul intra in vigoare la data semnarii de catre ambele",
+            "start_page": 1
+        },
+        {
+            "title": "Articolul 3 Valoarea contractului: Valoarea totala a contractului este de 50.000 EUR plus",
+            "start_page": 1
+        },
+        {
+            "title": "Articolul 4 Penalitati de intarziere: In caz de neexecutare sau executare cu intarziere a",
+            "start_page": 1
+        },
+        {
+            "title": "Articolul 5 Prelucrarea datelor personale: Partile convin ca orice date cu caracter personal",
+            "start_page": 1
+        },
+        {
+            "title": "Articolul 6 Forta majora: Forta majora inlatura raspunderea partilor. Prin forta majora se",
+            "start_page": 1
+        },
+        {
+            "title": "Articolul 7 Reziliere unilaterala: Beneficiarul poate rezilia unilateral contractul in orice",
+            "start_page": 1
+        },
+        {
+            "title": "Articolul 8 Cesiunea contractului: Prestatorul are dreptul de a ceda integral sau partial",
+            "start_page": 1
+        },
+        {
+            "title": "Articolul 9 Limitarea raspunderii: Prestatorul nu raspunde pentru niciun fel de daune",
+            "start_page": 1
+        },
+        {
+            "title": "Articolul 10 Confidentialitate: Partile se obliga sa pastreze confidentialitatea",
+            "start_page": 1
+        },
+        {
+            "title": "Articolul 11 Jurisdictie si arbitraj: Orice neintelegeri aparute vor fi solutionate exclusiv",
+            "start_page": 1
+        }
+    ],
+    "clauses": [
+        {
+            "id": "clz_1",
+            "section": "Preambul",
+            "text": "CONTRACT DE FURNIZARE SI PRESTARI SERVICII IT - NR. 412 / 2026\nPreambul: Prezentul contract s-a incheiat astazi, 04.06.2026, intre SC TECH SOLUTIONS SRL\n(Prestator) cu sediul in Cluj-Napoca, CUI RO123456, si SC RETAIL GRUP SRL (Beneficiar) cu\nsediul in Bucuresti, CUI RO789101.",
+            "page": 1,
+            "type": "altele"
+        },
+        {
+            "id": "clz_2",
+            "section": "Articolul 1 Obiectul contractului: Furnizarea de echipamente IT si dezvoltarea unei platforme",
+            "text": "Articolul 1. Obiectul contractului: Furnizarea de echipamente IT si dezvoltarea unei platforme\nsoftware de e-commerce pentru Beneficiar conform Anexei 1.",
+            "page": 1,
+            "type": "obligatie"
+        },
+        {
+            "id": "clz_3",
+            "section": "Articolul 2 Durata contractului: Contractul intra in vigoare la data semnarii de catre ambele",
+            "text": "Articolul 2. Durata contractului: Contractul intra in vigoare la data semnarii de catre ambele\nparti si este valabil pentru o perioada de 12 luni.",
+            "page": 1,
+            "type": "altele"
+        },
+        {
+            "id": "clz_4",
+            "section": "Articolul 3 Valoarea contractului: Valoarea totala a contractului este de 50.000 EUR plus",
+            "text": "Articolul 3. Valoarea contractului: Valoarea totala a contractului este de 50.000 EUR plus\nTVA, platibila conform graficului de plati.",
+            "page": 1,
+            "type": "obligatie"
+        },
+        {
+            "id": "clz_5",
+            "section": "Articolul 4 Penalitati de intarziere: In caz de neexecutare sau executare cu intarziere a",
+            "text": "Articolul 4. Penalitati de intarziere: In caz de neexecutare sau executare cu intarziere a\nobligatiilor de livrare, Prestatorul datoreaza Beneficiarului o penalitate de 1% pe zi din\nvaloarea contractului. Beneficiarul nu va fi tinut sa plateasca nicio penalitate pentru\nintarzieri la plata facturilor primite.",
+            "page": 1,
+            "type": "penalitate"
+        },
+        {
+            "id": "clz_6",
+            "section": "Articolul 5 Prelucrarea datelor personale: Partile convin ca orice date cu caracter personal",
+            "text": "Articolul 5. Prelucrarea datelor personale: Partile convin ca orice date cu caracter personal\ncolectate in executarea contractului sa fie prelucrate in scopuri de marketing direct si\ntransmise catre parteneri terti din afara UE fara obligatia de a solicita consimtamantul\npersoanelor vizate.",
+            "page": 1,
+            "type": "date_personale"
+        },
+        {
+            "id": "clz_7",
+            "section": "Articolul 6 Forta majora: Forta majora inlatura raspunderea partilor. Prin forta majora se",
+            "text": "Articolul 6. Forta majora: Forta majora inlatura raspunderea partilor. Prin forta majora se\nintelege orice imprejurare greu de evitat sau controlat de catre partile contractante.",
+            "page": 1,
+            "type": "forta_majora"
+        },
+        {
+            "id": "clz_8",
+            "section": "Articolul 7 Reziliere unilaterala: Beneficiarul poate rezilia unilateral contractul in orice",
+            "text": "Articolul 7. Reziliere unilaterala: Beneficiarul poate rezilia unilateral contractul in orice\nmoment, cu un preaviz scris de doar 24 de ore, fara a datora nicio despagubire Prestatorului.\nPrestatorul nu are dreptul de a rezilia unilateral contractul sub nicio forma.",
+            "page": 1,
+            "type": "reziliere"
+        },
+        {
+            "id": "clz_9",
+            "section": "Articolul 8 Cesiunea contractului: Prestatorul are dreptul de a ceda integral sau partial",
+            "text": "Articolul 8. Cesiunea contractului: Prestatorul are dreptul de a ceda integral sau partial\nobligatiile si drepturile sale din acest contract catre orice alta entitate, fara a fi necesar\nacordul Beneficiarului.",
+            "page": 1,
+            "type": "drept"
+        },
+        {
+            "id": "clz_10",
+            "section": "Articolul 9 Limitarea raspunderii: Prestatorul nu raspunde pentru niciun fel de daune",
+            "text": "Articolul 9. Limitarea raspunderii: Prestatorul nu raspunde pentru niciun fel de daune\ndirecte, indirecte, speciale sau accidentale provocate Beneficiarului, chiar daca acestea sunt\nrezultatul intentiei sale deliberate sau a unei culpe grave din partea angajatilor sai.",
+            "page": 1,
+            "type": "altele"
+        },
+        {
+            "id": "clz_11",
+            "section": "Articolul 10 Confidentialitate: Partile se obliga sa pastreze confidentialitatea",
+            "text": "Articolul 10. Confidentialitate: Partile se obliga sa pastreze confidentialitatea\ninformatiilor primite pe parcursul derularii contractului. Aceasta obligatie de\nconfidentialitate se prelungeste pe o perioada de timp nedeterminata si nu inceteaza niciodata\ndupa terminarea contractului.",
+            "page": 1,
+            "type": "confidentialitate"
+        },
+        {
+            "id": "clz_12",
+            "section": "Articolul 11 Jurisdictie si arbitraj: Orice neintelegeri aparute vor fi solutionate exclusiv",
+            "text": "Articolul 11. Jurisdictie si arbitraj: Orice neintelegeri aparute vor fi solutionate exclusiv\nde catre instanta de arbitraj aleasa unilateral de catre Beneficiar, iar decizia va fi\ndefinitiva si executorie.",
+            "page": 1,
+            "type": "altele"
+        }
+    ]
+}
