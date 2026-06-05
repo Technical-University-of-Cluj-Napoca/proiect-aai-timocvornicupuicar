@@ -1,0 +1,38 @@
+[
+    {
+        "node": "parse_document",
+        "duration_seconds": 39.227,
+        "tokens_consumed": 2000,
+        "timestamp": "2026-06-06T00:44:45.697824"
+    },
+    {
+        "node": "retrieve_context (iter 0)",
+        "duration_seconds": 17.011,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-06T00:45:02.732398"
+    },
+    {
+        "node": "assess_risk",
+        "duration_seconds": 113.129,
+        "tokens_consumed": 13000,
+        "timestamp": "2026-06-06T00:46:55.874429"
+    },
+    {
+        "node": "flag_high_risk",
+        "duration_seconds": 0.0,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-06T00:46:55.914626"
+    },
+    {
+        "node": "generate_recommendations",
+        "duration_seconds": 289.334,
+        "tokens_consumed": 45000,
+        "timestamp": "2026-06-06T00:51:45.261315"
+    },
+    {
+        "node": "compile_report",
+        "duration_seconds": 0.004,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-06T00:51:45.286453"
+    }
+]

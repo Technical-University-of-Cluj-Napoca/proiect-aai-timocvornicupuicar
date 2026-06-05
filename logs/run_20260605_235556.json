@@ -1,0 +1,74 @@
+[
+    {
+        "node": "parse_document",
+        "duration_seconds": 49.399,
+        "tokens_consumed": 2000,
+        "timestamp": "2026-06-05T23:56:45.702061"
+    },
+    {
+        "node": "retrieve_context (iter 0)",
+        "duration_seconds": 19.225,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-05T23:57:04.993514"
+    },
+    {
+        "node": "assess_risk",
+        "duration_seconds": 241.34,
+        "tokens_consumed": 13000,
+        "timestamp": "2026-06-06T00:01:06.358378"
+    },
+    {
+        "node": "increase_iteration",
+        "duration_seconds": 0.0,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-06T00:01:06.424514"
+    },
+    {
+        "node": "retrieve_context (iter 1)",
+        "duration_seconds": 9.274,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-06T00:01:15.755264"
+    },
+    {
+        "node": "assess_risk",
+        "duration_seconds": 407.244,
+        "tokens_consumed": 15600,
+        "timestamp": "2026-06-06T00:08:03.017808"
+    },
+    {
+        "node": "increase_iteration",
+        "duration_seconds": 0.0,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-06T00:08:03.079047"
+    },
+    {
+        "node": "retrieve_context (iter 2)",
+        "duration_seconds": 8.257,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-06T00:08:11.367721"
+    },
+    {
+        "node": "assess_risk",
+        "duration_seconds": 426.278,
+        "tokens_consumed": 15600,
+        "timestamp": "2026-06-06T00:15:17.664801"
+    },
+    {
+        "node": "flag_high_risk",
+        "duration_seconds": 0.0,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-06T00:15:17.717088"
+    },
+    {
+        "node": "generate_recommendations",
+        "duration_seconds": 0.002,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-06T00:15:17.749864"
+    },
+    {
+        "node": "compile_report",
+        "duration_seconds": 0.003,
+        "tokens_consumed": 0,
+        "timestamp": "2026-06-06T00:15:17.771184"
+    }
+]

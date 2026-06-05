@@ -64,7 +64,7 @@ class RecommendationAgent:
                     pass
             if self._creative_llm is None and google_key:
                 from langchain_google_genai import ChatGoogleGenerativeAI
-                self._creative_llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.7)
+                self._creative_llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.7)
             else:
                 self._creative_llm = self.llm
         return self._creative_llm
@@ -141,6 +141,30 @@ class RecommendationAgent:
                     sources=sources,
                     candidates=None
                 )
+	        
+        # Mod economic pentru demo/API free tier:
+        # Pentru clauzele cu risc RIDICAT folosim un singur apel LLM,
+        # ca sa evitam depasirea limitei Gemini.
+        try:
+            data = self._call_reformatter(False, clause, risk_assessment.issues, context_str)
+            return RecommendationDTO(
+                clause_id=clause.id,
+                original_text=clause.text,
+                reformulated_text=data.get("reformulated_text", ""),
+                explanation=data.get("explanation", "Clauză modificată pentru corectarea riscului ridicat."),
+                sources=sources,
+                candidates=[]
+            )
+        except Exception as e:
+            print(f"Error reformulating RIDICAT risk clause {clause.id}: {e}")
+            return RecommendationDTO(
+                clause_id=clause.id,
+                original_text=clause.text,
+                reformulated_text="",
+                explanation=f"A apărut o eroare tehnică la generarea recomandării: {e}",
+                sources=sources,
+                candidates=[]
+            )
 
         print(f"Applying self-consistency recommendation logic for high-risk clause {clause.id}...")
         candidates = []
