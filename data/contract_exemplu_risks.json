@@ -1,0 +1,155 @@
+[
+    {
+        "clause_id": "clz_1",
+        "risk_level": "NECUNOSCUT",
+        "issues": [
+            "Nu s-a putut evalua riscul deoarece nu au fost gasite documente legislative relevante in corpus."
+        ],
+        "references": [],
+        "context_was_empty": true
+    },
+    {
+        "clause_id": "clz_2",
+        "risk_level": "MEDIU",
+        "issues": [
+            "Clauza definește obiectul contractului ca fiind dezvoltarea unei platforme software de e-commerce, care, prin natura sa, va prelucra date cu caracter personal.",
+            "Clauza omite să facă referire la obligația de a asigura protecția datelor începând cu momentul conceperii și în mod implicit (data protection by design and by default), conform Articolului 27 din documentul 'gdpr_institutii_ue.pdf'. Această cerință este fundamentală pentru dezvoltarea oricărui sistem care prelucrează date personale.",
+            "Lipsa unei mențiuni explicite privind conformitatea cu Regulamentul (UE) 2016/679 (GDPR) în dezvoltarea platformei poate crea ambiguitate și riscuri de neconformitate, dacă aceste aspecte nu sunt detaliate în alte secțiuni ale contractului sau în Anexa 1."
+        ],
+        "references": [
+            "gdpr_institutii_ue.pdf",
+            "gdpr_regulament_2016_679.pdf"
+        ],
+        "context_was_empty": false
+    },
+    {
+        "clause_id": "clz_3",
+        "risk_level": "CONFORM",
+        "issues": [],
+        "references": [],
+        "context_was_empty": false
+    },
+    {
+        "clause_id": "clz_4",
+        "risk_level": "NECUNOSCUT",
+        "issues": [
+            "Nu s-a putut evalua riscul deoarece nu au fost gasite documente legislative relevante in corpus."
+        ],
+        "references": [],
+        "context_was_empty": true
+    },
+    {
+        "clause_id": "clz_5",
+        "risk_level": "RIDICAT",
+        "issues": [
+            "Clauza este asimetrică, impunând penalități doar Prestatorului și exonerând Beneficiarul de orice penalitate pentru întârzieri la plată, ceea ce contravine principiului simetriei penalităților prevăzut în 'legea_98_2016_achizitii.pdf' și 'anpc_ghid_achizitii_imobiliare.pdf'.",
+            "Rata penalității de 1% pe zi din valoarea totală a contractului pentru Prestator este excesivă și disproporționată, comparativ cu rata de 0.1% pe zi din valoarea bunurilor nelivrate sugerată în 'model_contract_furnizare.pdf'. O astfel de rată ar putea fi considerată abuzivă și ar putea depăși limitele dobânzii legale penalizatoare menționate în 'legea_98_2016_achizitii.pdf'."
+        ],
+        "references": [
+            "legea_98_2016_achizitii.pdf",
+            "anpc_ghid_achizitii_imobiliare.pdf",
+            "model_contract_furnizare.pdf"
+        ],
+        "context_was_empty": false
+    },
+    {
+        "clause_id": "clz_6",
+        "risk_level": "RIDICAT",
+        "issues": [
+            "Clauza încalcă principiul fundamental conform căruia prelucrarea datelor cu caracter personal se bazează pe consimțământ, eliminând obligația de a-l solicita pentru marketing direct (conform 'gdpr_institutii_ue.pdf').",
+            "Clauza ignoră dreptul persoanei vizate de a se opune prelucrării datelor în scopuri de marketing direct, drept menționat explicit ca fiind obligatoriu și gratuit, care trebuie adus în mod explicit în atenția persoanei vizate și prezentat clar și separat (conform 'gdpr_regulament_2016_679.pdf', punctul 70).",
+            "Clauza permite transferul datelor către parteneri terți din afara UE fără a solicita consimțământul persoanelor vizate și fără a menționa alte garanții sau baze legale necesare pentru astfel de transferuri, conform GDPR. Deși contextul nu detaliază condițiile specifice pentru transferuri internaționale, eliminarea consimțământului ca bază legală este o încălcare gravă a principiilor generale de protecție a datelor."
+        ],
+        "references": [
+            "gdpr_institutii_ue.pdf",
+            "gdpr_regulament_2016_679.pdf"
+        ],
+        "context_was_empty": false
+    },
+    {
+        "clause_id": "clz_7",
+        "risk_level": "MEDIU",
+        "issues": [
+            "Definiția contractuală a forței majore (\"orice imprejurare greu de evitat sau controlat\") este semnificativ mai largă și mai puțin strictă decât definiția legală prevăzută de Articolul 1351 alin. (2) din Codul Civil (\"orice eveniment extern, imprevizibil, absolut invincibil și inevitabil\").",
+            "Clauza contractuală omite elemente esențiale ale forței majore conform Codului Civil, cum ar fi caracterul \"extern\" și \"imprevizibil\" al evenimentului.",
+            "Expresia \"greu de evitat sau controlat\" este subiectivă și mai puțin riguroasă decât \"absolut invincibil și inevitabil\", ceea ce poate duce la interpretări divergente și litigii în cazul invocării forței majore.",
+            "Această definiție mai laxă poate permite unei părți să invoce forța majoră în situații care, conform legii, nu ar justifica înlăturarea răspunderii, creând un potențial dezechilibru contractual și un risc de contestare a aplicabilității clauzei în instanță."
+        ],
+        "references": [
+            "codul_civil_contracte.pdf"
+        ],
+        "context_was_empty": false
+    },
+    {
+        "clause_id": "clz_8",
+        "risk_level": "RIDICAT",
+        "issues": [
+            "Lipsa de reciprocitate și dezechilibru contractual major: Clauza acordă Beneficiarului dreptul de a rezilia unilateral contractul în orice moment, fără motiv și fără despăgubiri, cu un preaviz extrem de scurt (24 de ore), în timp ce Prestatorului îi este interzisă orice formă de reziliere unilaterală. Această asimetrie este excesivă și contravine principiilor de echitate contractuală, mai ales prin comparație cu alte modele de contract care, deși permit rezilierea unilaterală de către achizitor, o condiționează (ex: neîndeplinirea indicatorilor de performanță) și/sau prevăd un preaviz mai lung.",
+            "Preaviz insuficient: Termenul de preaviz de 24 de ore este extrem de scurt și poate prejudicia grav Prestatorul, care nu are timp să se adapteze sau să-și minimizeze pierderile. Modelul de contract de prestări servicii (model_contract_prestari_servicii.pdf) prevede un preaviz de 15 zile chiar și în cazul rezilierii motivate de neîndeplinirea indicatorilor de performanță, indicând că 24 de ore este un termen nerezonabil de scurt.",
+            "Excluderea totală a despăgubirilor pentru Beneficiar în cazul rezilierii fără cauză: Deși modelul de contract de prestări servicii permite rezilierea fără despăgubiri în anumite condiții (neîndeplinirea SLA), clauza analizată permite rezilierea 'în orice moment' fără despăgubiri, ceea ce poate fi considerat abuziv dacă rezilierea este arbitrară și cauzează prejudicii semnificative Prestatorului, fără a oferi acestuia nicio cale de recurs sau compensație."
+        ],
+        "references": [
+            "model_contract_prestari_servicii.pdf",
+            "legea_98_2016_achizitii.pdf"
+        ],
+        "context_was_empty": false
+    },
+    {
+        "clause_id": "clz_9",
+        "risk_level": "RIDICAT",
+        "issues": [
+            "Clauza permite Prestatorului să cedeze integral sau parțial drepturile și obligațiile contractuale, inclusiv cele legate de prelucrarea datelor cu caracter personal, către o terță parte fără a fi necesar acordul Beneficiarului.",
+            "În contextul prelucrării datelor cu caracter personal, o astfel de cesiune fără acordul Beneficiarului (care ar putea fi operatorul de date) încalcă principiile GDPR. Operatorul este responsabil să se asigure că orice persoană împuternicită (sau un nou Prestator/cesionar) oferă garanții suficiente pentru implementarea măsurilor tehnice și organizatorice adecvate, conform Articolului 29 din gdpr_institutii_ue.pdf (referitor la persoana împuternicită de operator).",
+            "Beneficiarul pierde controlul asupra entității care va prelucra datele cu caracter personal, neputând evalua conformitatea acesteia cu cerințele GDPR (securitate, garanții contractuale, etc.).",
+            "Responsabilitatea operatorului sau a persoanei împuternicite de a respecta Regulamentul nu este redusă prin certificare sau alte instrumente (conform gdpr_regulament_2016_679.pdf), iar o cesiune fără acordul părții care deține controlul asupra datelor poate duce la încălcări ale regulamentului și la răspunderea Beneficiarului."
+        ],
+        "references": [
+            "gdpr_institutii_ue.pdf",
+            "gdpr_regulament_2016_679.pdf"
+        ],
+        "context_was_empty": false
+    },
+    {
+        "clause_id": "clz_10",
+        "risk_level": "RIDICAT",
+        "issues": [
+            "Clauza încalcă prevederile imperative ale Articolului 1355 alin. (1) din Codul Civil, care interzice excluderea sau limitarea răspunderii pentru prejudiciul cauzat prin intenție sau culpă gravă a debitorului.",
+            "Conform Articolului 1355 alin. (1) din Codul Civil, o astfel de clauză este lovită de nulitate absolută, ceea ce înseamnă că nu produce niciun efect juridic."
+        ],
+        "references": [
+            "codul_civil_contracte.pdf"
+        ],
+        "context_was_empty": false
+    },
+    {
+        "clause_id": "clz_11",
+        "risk_level": "MEDIU",
+        "issues": [
+            "Obligația de confidențialitate este stabilită pe o perioadă nedeterminată ('nu inceteaza niciodata'), ceea ce este atipic și poate fi considerat excesiv sau disproporționat în comparație cu practicile standard. Modelul de contract de referință sugerează o perioadă definită ('cel putin 5 ani de la incetarea contractului').",
+            "O perioadă nedeterminată poate genera dificultăți în aplicare și monitorizare pe termen lung, precum și incertitudine juridică.",
+            "Dacă 'informațiile primite' includ date cu caracter personal, o obligație de confidențialitate pe termen nedeterminat ar putea intra în conflict cu principiile Regulamentului GDPR, în special cu principiul limitării stocării (care impune ca datele să fie păstrate doar atât timp cât este necesar pentru scopurile prelucrării) și cu dreptul la ștergerea datelor (Articolul 15 lit. (e) din GDPR), care implică o perioadă finită de prelucrare și stocare a datelor."
+        ],
+        "references": [
+            "model_contract_prestari_servicii.pdf",
+            "gdpr_regulament_2016_679.pdf"
+        ],
+        "context_was_empty": false
+    },
+    {
+        "clause_id": "clz_12",
+        "risk_level": "RIDICAT",
+        "issues": [
+            "Clauza permite unei părți (Beneficiarul) să aleagă unilateral instanța de arbitraj, ceea ce încalcă principiile fundamentale de imparțialitate și echitate ale oricărui mecanism de soluționare a litigiilor.",
+            "Această prevedere creează un dezechilibru contractual semnificativ și poate duce la un proces arbitral părtinitor, afectând dreptul celeilalte părți la o judecată echitabilă.",
+            "Deși contextul legislativ nu conține un articol specific care să interzică unilateralitatea alegerii instanței de arbitraj, principiile generale de drept (cum ar fi cele care stau la baza nulității absolute pentru clauze abuzive sau contrare ordinii publice, exemplificate de Art. 1355 din Codul Civil) ar putea fi invocate pentru a contesta validitatea unei astfel de clauze.",
+            "Modelul de contract de lucrări din context indică o practică standard de a numi o instituție de arbitraj neutră și recunoscută (Curtea de Arbitraj Comercial de pe lângă Camera de Comert și Industrie a României), ceea ce subliniază deviația clauzei analizate de la bunele practici."
+        ],
+        "references": [
+            "codul_civil_contracte.pdf",
+            "model_contract_lucrari.pdf",
+            "legea_98_2016_achizitii.pdf",
+            "gdpr_regulament_2016_679.pdf"
+        ],
+        "context_was_empty": false
+    }
+]

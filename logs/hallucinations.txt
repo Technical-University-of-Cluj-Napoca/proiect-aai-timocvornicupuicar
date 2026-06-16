@@ -1,0 +1,13 @@
+Caz 1:
+Modelul poate cita o referință juridică care nu apare explicit în contextul recuperat.
+Aceasta este considerată halucinație deoarece referința nu are corespondent în corpus.
+
+Mitigare:
+Promptul RiskAssessmentAgent obligă modelul să folosească doar sursele din context_chunks.
+
+Caz 2:
+Pentru o clauză ambiguă, retrieval-ul poate returna un fragment cu scor semantic bun,
+dar juridic irelevant, de exemplu GDPR pentru o clauză care nu implică date personale.
+
+Mitigare:
+Se aplică threshold de relevanță și se documentează limitarea retrieval-ului semantic.
